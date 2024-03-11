@@ -1,9 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://docs.maiguazicc.cn/:path*",
-      "statusCode": 301
+      "source": "/docs/:path*",
+      "destination": "/:path*"
     }
   ]
 }
